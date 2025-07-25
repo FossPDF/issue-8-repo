@@ -1,0 +1,95 @@
+# .gitignore for C# / .NET projects
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.cache
+*.mdb
+*.opendb
+*.VC.db
+*.pidb
+*.svclog
+*.scc
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# TeamCity
+_TeamCity*
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotTrace
+*.dotTrace
+
+# Rider logs
+.idea/
+.idea/.idea.FossPdfIssue8/
+.idea/.idea.FossPdfIssue8.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/.name
+.idea/httpRequests/
+.idea/assetWizardSettings.xml
+.idea/.gitignore
+
+# Local history for Rider
+.idea/.localHistory/
+
+# Windows image file caches
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# Linux
+*~
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Rider settings
+.idea/
+*.sln.iml
+
+# End of .gitignore
+
